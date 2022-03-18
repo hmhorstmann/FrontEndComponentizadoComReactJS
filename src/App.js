@@ -1,7 +1,31 @@
-import React from "react";
+import React from "react"
+import Layout from "./components/layout"
+import Profile from "./components/profile"
+import OtherInfos from "./components/other-infos"
+import NoSearch from "./components/no-search";
+import usePoke from "./hooks/poke-hooks";
 
-function App() {
-  return <div className="App">GitHub API</div>;
+const App = () => {
+    const {pokeState}=usePoke();
+    return (
+        <Layout>
+            {pokeState.hasPoke ? (
+                <>
+                    {pokeState.loading ? (
+                        <p>Loading</p>
+                    ) : (
+                        <>
+                            <Profile />
+                            <OtherInfos />
+                        </>
+                    )}
+
+                </>
+            ) : (
+                <NoSearch />
+            )}
+        </Layout>
+    )
 }
 
 export default App;

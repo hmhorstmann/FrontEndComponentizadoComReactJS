@@ -1,0 +1,2 @@
+Componentes que precisam ser aprimorados para futuras versões.
+Pertencem ao caminho src > components
