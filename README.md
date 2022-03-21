@@ -38,6 +38,6 @@ Criando um front-end totalmente componentizado na prática com ReactJS para o **
 ### Problema na imagem atual de Pokes recentes (Números de 650-898)
 
 <div align="center">
-<img width="150" alt="650" src="https://github.com/hmhorstmann/FrontEndComponentizadoComReactJS/blob/main/prints/PikachuHeight.png">
-<img width="150" alt="898" src="https://github.com/hmhorstmann/FrontEndComponentizadoComReactJS/blob/main/prints/PikachuWeight.png">
+<img width="150" alt="650" src="https://github.com/hmhorstmann/FrontEndComponentizadoComReactJS/blob/main/prints/650.png">
+<img width="150" alt="898" src="https://github.com/hmhorstmann/FrontEndComponentizadoComReactJS/blob/main/prints/898.png">
 </div>
