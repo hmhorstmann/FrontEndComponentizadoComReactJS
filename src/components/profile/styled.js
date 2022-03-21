@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 300px;
+    height: 300px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -24,7 +25,8 @@ export const Container = styled.div`
     }
 
     a {
-        width:50%;
+    height: 50%;
+    width:50%;
     }
 `
 
@@ -46,12 +48,14 @@ margin-top: 6px;
     
     export const ContainerImage = styled.img`
     margin: 5% 0 5%;
-    width: 100%;
+    width: 99%;
+    height: 99%;
     border: 2px solid white;
     border-radius: 20%;
     `
 
 export const ContainerTypes = styled.div`
+margin-top: 10px;
 border-radius: 30%;
 
     font-size: 1.5rem;
