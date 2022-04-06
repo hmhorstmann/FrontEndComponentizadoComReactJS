@@ -45,7 +45,7 @@ const PokeProvider = ({ children }) => {
         // fazendo uma segunda busca em outra api, apartir de infos retiradas na primeira pesquisa
         const {data} = await api        
             .get(`pokemon/${pokemon}`)
-
+            console.log(data)
             const pokemonTypes = []
 
             for(let item of data.types) {
@@ -69,7 +69,7 @@ const PokeProvider = ({ children }) => {
                                             frontDefault: data.sprites.other.dream_world.front_default,
                                         },
                                         officialArtwork: {
-                                            // frontDefault: data.sprites.other.official-artwork.front_default,
+                                            frontDefault: data.sprites.other['official-artwork'].front_default,
                                         },
                                     }
                                 },

@@ -30,10 +30,10 @@ Criando um front-end totalmente componentizado na prática com ReactJS para o **
 
 ### Versões Futuras
 
- - Inserir tratamento da pesquisa, para que o usuário possa pesquisar sem diferenciar letras maiúsculas e minúsculas.
- - Adicionar na Card as unidades de medida do Pokemon.
- - Adicionar efeitos de áudio ao pesquisar um novo Poke!
- - Modificar acesso da API para renderizar imagens da arte ofical, cobrindo assim até os pokemons mais novos (de número 650+) que ainda não possuem imagem na atual pesquisa da api.
+ - [ ] Inserir tratamento da pesquisa, para que o usuário possa pesquisar sem diferenciar letras maiúsculas e minúsculas.
+ - [ ] Adicionar na Card as unidades de medida do Pokemon.
+ - [ ] Adicionar efeitos de áudio ao pesquisar um novo Poke!
+ - [x] ~~Modificar acesso da API para renderizar imagens da arte ofical, cobrindo assim até os pokemons mais novos (de número 650+) que ainda não possuem imagem na atual pesquisa da api.~~
 
 ### Problema na imagem atual de Pokes recentes (Números de 650-898)
 
