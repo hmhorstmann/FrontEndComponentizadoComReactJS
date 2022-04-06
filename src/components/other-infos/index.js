@@ -21,14 +21,14 @@ const OtherInfos = () => {
                     <S.ContainerTabPanel>
                         <S.ContainerTabList>
                             <>
-                                {pokeState.pokemon.height}
+                                {pokeState.pokemon.height/10} m
                             </>
                         </S.ContainerTabList>
                     </S.ContainerTabPanel>
                     <S.ContainerTabPanel>
                         <S.ContainerTabList>
                             <>
-                                {pokeState.pokemon.weight}
+                                {pokeState.pokemon.weight/10} kg
                             </>
                         </S.ContainerTabList>
                     </S.ContainerTabPanel>

@@ -8,13 +8,13 @@ const Search = () => {
     const [pokemonForSearch, setPokemonForSearch] = useState("")
 
     const submitGetPokemon = () => {
-        if(!pokemonForSearch) return;
+        if (!pokemonForSearch) return;
         return getPokemon(pokemonForSearch)
     }
-    
+
     return (
         <S.Container>
-            <input type="text" placeholder='{Nome ou Número} do Pokemon' onChange={(event) => {setPokemonForSearch(event.target.value)}} />
+            <input type="text" placeholder='{Nome ou Número} do Pokemon' onChange={(event) => {setPokemonForSearch(event.target.value.toLowerCase())}} />
             <button type="submit" onClick={submitGetPokemon} ><span>dex</span></button>
         </S.Container>
     )
